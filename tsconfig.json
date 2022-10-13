@@ -4,13 +4,18 @@
         "module": "Commonjs",
         "target": "es2019",
         "esModuleInterop": true,
-        "strictNullChecks": false
+        "strictNullChecks": false,
+        "sourceMap": true,
+        "baseUrl": "src",
+        "rootDir": "src",
+        "paths": {
+            "@/*": [
+                "*"
+            ]
+        }
     },
     "include": [
         "src"
     ],
-    "exclude": [
-        "**/*.spec.ts",
-        "**/*.test.ts",
-    ]
+    "exclude": []
 }
