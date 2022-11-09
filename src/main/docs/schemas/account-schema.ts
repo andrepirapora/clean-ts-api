@@ -1,4 +1,4 @@
-export const apiKeyAuthSchema = {
+export const accountSchema = {
   type: 'object',
   properties: {
     accessToken: {
