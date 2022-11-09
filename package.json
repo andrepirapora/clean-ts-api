@@ -18,7 +18,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3-or-later",
   "devDependencies": {
     "@shelf/jest-mongodb": "^4.0.0",
     "@types/bcrypt": "^5.0.0",
