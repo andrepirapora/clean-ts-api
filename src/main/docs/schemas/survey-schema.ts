@@ -4,7 +4,7 @@ export const surveySchema = {
     id: {
       type: 'string'
     },
-    string: {
+    question: {
       type: 'string'
     },
     answers: {
